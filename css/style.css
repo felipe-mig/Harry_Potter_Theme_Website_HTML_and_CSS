@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+html {
+  scrollbar-color:  #CCCCCC #0C0C0C;
+}
+/*WRAPPER*/
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/wrapper2.jpg);
+  background-size: cover;
+}
+/* Header */
+header {
+  width: 100vw;
+  height: 6vh;
+  background-color: #000000;
+  /* border-bottom: 1px solid #FBF5E8; */
+}
+/* logo */
+.logo {
+  width: 11vw;
+  height: 6vh;
+  background-color: #000000;
+  color: #fefefe;
+  text-decoration: none;
+  font-family: harry-1;
+  font-size: 2em;
+  float: left;
+  padding-left: 0.5vw;
+  padding-top: 0.5vh;
+  margin-top: 0.5vh;
+  margin-left: 5vw;
+}
+.logo:hover {
+  color: #fefefe;
+}
+/* nav-list */
+nav {
+  width: 25vw;
+  height: 5vh;
+  background-color: #000000;
+  margin-top: 1.3vh;
+}
+ul li {
+  float: left;
+  margin: 1vh 0.8vw;
+}
+ul li a {
+  font-size: 1.1em;
+  color: #fefefe;
+  text-decoration: none;
+  font-family: crimson-bold;
+}
+a:hover {
+  color: #3C6861;
+}
+/* CTA section */
+.cta-container {
+  width: 99vw;
+  height: 100vh;
+  background-image: url(../img/cta-image.jpg);
+  background-size: cover;
+}
+h1 {
+  width: 45vw;
+  height: 12vh;
+  margin-top: 22vh;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ffffff;
+  text-align: center;
+  font-family: harry-2;
+  font-size: 5em;
+  padding-top: 1vh;
+}
+h2 {
+  background: rgba(0, 0, 0, 0.5);
+  width: 24vw;
+  height: 5vh;
+  margin: 2vh auto;
+  color: #ffffff;
+  text-align: center;
+  font-family: harry-2;
+  padding-top: 1vh;
+}
+/* Video section */
+.video-section-container {
+  /* background-color: grey; */
+  width: 100vw;
+  height: 78.5vh;
+}
+#video-trailer {
+  width: 100vw;
+}
+/* card images section */
+#card-images-container {
+  background-color: transparent;
+  width: 100vw;
+  height: 55vh;
+  margin-bottom: 4vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.image-1 {
+  background-image: url(../img/img4.jpeg);
+  background-size: cover;
+  width: 20vw;
+  height: 35vh;
+  margin-top: 10vh;
+}
+.image-2 {
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  width: 20vw;
+  height: 35vh;
+  margin-top: 10vh;
+}
+.image-3 {
+  background-image: url(../img/img3.jpg);
+  background-size: cover;
+  width: 20vw;
+  height: 35vh;
+  margin-top: 10vh;
+}
+.image-4 {
+  background-image: url(../img/img5.jpg);
+  background-size: cover;
+  width: 20vw;
+  height: 35vh;
+  margin-top: 10vh;
+}
+/* Big images section */
+.big-image-container {
+  background-image: url(../img/img-2.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 65vh;
+}
+/* Text section */
+#text-container {
+  width: 100vw;
+  height: 80vh;
+  margin-top: 10vh;
+}
+#p1 {
+  background: rgba(23, 23, 23, 0.5);
+  width: 45vw;
+  height: 31vh;
+  margin: 0 auto;
+  color: #fefefe;
+  font-family: pt;
+  font-size: 1.2em;
+  line-height: 3.25vh;
+  padding: 2vh 2vw;
+}
+#p2 {
+  background: rgba(23, 23, 23, 0.5);
+  width: 45vw;
+  height: 45vh;
+  margin: 0 auto;
+  color: #fefefe;
+  font-family: pt;
+  font-size: 1.2em;
+  line-height: 3.25vh;
+  padding: 2vh 2vw;
+}
+/* Footer Section */
+footer {
+    background-color: #000000;
+  width: 100vw;
+  height: 30vh;
+  margin-top: 10vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+#footer-subconteiner {
+    width: 45vw;
+    height: 28vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #cccccc;
+}
+.social-media-icons-container {
+margin-top: 3vh;
+  width: 12vw;
+  height: 4vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+i {
+   font-size: 1.3em;
+   color: #cccccc;
+}
+.contact-us-container {
+    margin-top: 3vh;
+    color: #fefefe;
+    font-family: crimson-bold;
+    font-size: 1em;
+    line-height: 2.5vh;
+}
+.about-us {
+    margin-top: 3vh;
+    color: #fefefe;
+    font-family: crimson-bold;
+    font-size: 1em;
+    line-height: 2.5vh;
+}
+.advertising {
+    margin-top: 3vh;
+    color: #fefefe;
+    font-family: crimson-bold;
+    font-size: 1em;
+    line-height: 2.5vh;
+}
+/* copyright and terms */
+.copy-and-terms-container {
+    background-color: #000000;
+    width: 100vw;
+    height: 4vh;
+    margin: 0 auto;
+    padding-left: 27vw;
+    font-size: 0.8em;
+    color: #cccccc;
+}
